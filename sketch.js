@@ -102,7 +102,7 @@ slingShot.fly();
 }
 
 function keyPressed(){
-  if(keyCode === 32){
-     slingshot.attach(polygon.body);
+  if(keyCode === 32) {
+        slingShot.attach(polygon.body);
   }
 }
